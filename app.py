@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/test', methods=['GET'])
 def test():
 
-    response = {"words": "testing"}
+    response = {"words": "new testing"}
     r = json.dumps(response)
     return r
 
